@@ -1,0 +1,33 @@
+{% extends "base_yunjz.html" %}
+{%block title%}注册{%endblock%}
+{%block content%}
+	<h2>注册成为赵磊的朋友吧！</h2>
+	<form action="" method="post" class="form" role="form">
+	{%csrf_token%}
+		<div>
+			<label>昵称：</label>
+			<input id="id_username" name="username" type="text" />
+		</div>
+
+		<div>
+			<label>邮件：</label>
+			<input id="id_email" name="email" type="email" />
+		</div>
+
+		<div>
+			<label>密码：</label>
+			<input id="id_password" name="password" type="password" />
+		</div>
+		
+
+		<div>
+			<label>重复密码：</label>
+			<input id="id_re_password" name="re_password" type="password" />
+		</div>
+
+		<button type="submit">注册</button>
+		<button type='button' onclick='javascrtpt:window.location.href="{%url 'accounts:login' %}"'>登陆</button>
+	</form>
+
+{%endblock%}
+

@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+<html>
+  <head>
+      {% if title %}
+      <title>{{title}} - microblog</title>
+      {% else %}
+      <title>Jolly - microblog</title>
+      {% endif %}
+  </head>
+
+  <body>
+      <img src="http://images.missyuan.com/attachments/day_071216/20071216_9d1f2400a3dbe4c4deffVRrOXagK5UIU.gif">
+      <div><a href="/index"><b>Home</b></a></div>
+        {% if g.user.is_authenticated() %}
+        | <a href="{{ url_for('logout') }}">Logout</a>
+        {% endif %}
+      <div><a href="/login"><b>Login</b></a></div>
+      <hr>
+      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+      <ul>
+      {% for message in messages %}
+      <li>{{ message }} </li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+      {% endwith %}
+      {% block content %}{% endblock %}
+      <br>
+      <hr>
+      <div>Jolly's Github: <a href="https://github.com/Jolly23" target="_blank">Click here</a></div>
+      <img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1458647491&di=fbff51b96309f6e1be085647dab1b851&src=http://www.yooyoo360.com/photo/2009-1-5/20090116120421718.jpg">
+  </body>
+
+</html>

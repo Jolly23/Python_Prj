@@ -1,0 +1,946 @@
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 21:40:17 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/jzp/Wechat-dlnu-assistant/venv
+ImportError: No module named site
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 21:41:24 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+Set PythonHome to /home/jzp/Wechat-dlnu-assistant/venv
+ImportError: No module named site
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:01:58 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13ad5d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x13ad5d0 pid: 14529 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 14529, cores: 1)
+[pid: 14529|app: 0|req: 1/1] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:02:06 2014] GET / => generated 351 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 2/2] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:02:06 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 3/3] 10.146.110.111 () {38 vars in 624 bytes} [Tue Dec 23 22:04:51 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 4/4] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:05:19 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 5/5] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:05:19 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 6/6] 10.146.110.111 () {38 vars in 636 bytes} [Tue Dec 23 22:05:27 2014] GET /wechat => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 7/7] 101.226.103.71 () {36 vars in 648 bytes} [Tue Dec 23 22:06:31 2014] GET /weixin?signature=9318823f2c8ca07644c6faf8e8257c35d6904de1&echostr=8619364178043074301&timestamp=1419343593&nonce=1753524032 => generated 19 bytes in 1 msecs (HTTP/1.0 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 8/8] 140.207.54.75 () {38 vars in 629 bytes} [Tue Dec 23 22:06:50 2014] POST /weixin?signature=eba66117412c4b5c21d22078c1326c5991680e33&timestamp=1419343612&nonce=1791280607 => generated 235 bytes in 38 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14529|app: 0|req: 9/9] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:06:56 2014] POST /weixin?signature=4ac3ca6a5219b8c7d8ec4e44d75ac97b49d64a24&timestamp=1419343619&nonce=216241246 => generated 331 bytes in 6 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:08:21 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ddf5d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ddf5d0 pid: 14661 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 14661, cores: 1)
+[pid: 14661|app: 0|req: 1/1] 140.207.54.75 () {38 vars in 629 bytes} [Tue Dec 23 22:08:36 2014] POST /weixin?signature=ec44a5be9d3cf5750657494dffae2c0d37d7dcca&timestamp=1419343719&nonce=1428447108 => generated 327 bytes in 46 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14661|app: 0|req: 2/2] 180.153.201.212 () {38 vars in 470 bytes} [Tue Dec 23 22:08:37 2014] GET /weixin => generated 291 bytes in 4 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[pid: 14661|app: 0|req: 3/3] 10.205.33.75 () {48 vars in 991 bytes} [Tue Dec 23 22:08:43 2014] GET /login?openid=ozvT4jlLObJWzz2JQ9EFsWSkdM9U => generated 609 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 262 bytes (1 switches on core 0)
+[pid: 14661|app: 0|req: 4/4] 10.205.33.75 () {56 vars in 1363 bytes} [Tue Dec 23 22:09:01 2014] POST /login?openid=ozvT4jlLObJWzz2JQ9EFsWSkdM9U => generated 209 bytes in 3790 msecs (HTTP/1.1 302) 4 headers in 381 bytes (1 switches on core 0)
+[pid: 14661|app: 0|req: 5/5] 10.205.33.75 () {50 vars in 1211 bytes} [Tue Dec 23 22:09:05 2014] GET / => generated 416 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 262 bytes (1 switches on core 0)
+[pid: 14661|app: 0|req: 6/6] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:09:13 2014] POST /weixin?signature=b9e10501728f1f23ebfc1d7719fe21e67483cb7a&timestamp=1419343755&nonce=561627492 => generated 343 bytes in 179 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14661|app: 0|req: 7/7] 140.207.54.73 () {38 vars in 627 bytes} [Tue Dec 23 22:09:18 2014] POST /weixin?signature=0a8fb51c97fe44997f1a8dd9349288a308252aea&timestamp=1419343760&nonce=382105781 => generated 1641 bytes in 757 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+Gracefully killing worker 1 (pid: 14661)...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:12:05 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20ad600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20ad600 pid: 14799 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 14799, cores: 1)
+[pid: 14799|app: 0|req: 1/1] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:12:12 2014] POST /weixin?signature=f37444a4eb4b1ca0092bc71e700198c4de08b0a7&timestamp=1419343934&nonce=296070622 => generated 1641 bytes in 931 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 14799|app: 0|req: 2/2] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:12:32 2014] POST /weixin?signature=d9c327c36e3d033bd152111725c46ec4d5d7ac7e&timestamp=1419343954&nonce=196301861 => generated 271 bytes in 238 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14799|app: 0|req: 3/3] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:12:41 2014] GET / => generated 351 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14799|app: 0|req: 4/4] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:12:42 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14799|app: 0|req: 5/5] 140.207.54.73 () {38 vars in 627 bytes} [Tue Dec 23 22:12:50 2014] POST /weixin?signature=23d332efb5ad13adeb61bec0b21209d6ffe97f74&timestamp=1419343972&nonce=912819166 => generated 271 bytes in 230 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:17:08 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xbb5600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xbb5600 pid: 14820 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 14820, cores: 1)
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:36:52 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe50dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15205)
+spawned uWSGI worker 1 (pid: 15206, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15206|app: -1|req: -1/1] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:37:05 2014] POST /weixin?signature=3e9eb3421a9533fac069b9bf8cda26749ebf978a&timestamp=1419345427&nonce=405674760 => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+--- no python application found, check your startup logs for errors ---
+[pid: 15206|app: -1|req: -1/2] 140.207.54.75 () {38 vars in 625 bytes} [Tue Dec 23 22:37:12 2014] POST /weixin?signature=d6710ac5e61261983cbef0d155b621fc60d80701&timestamp=1419345434&nonce=79235061 => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15206|app: -1|req: -1/3] 10.146.110.111 () {38 vars in 624 bytes} [Tue Dec 23 22:37:21 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15206|app: -1|req: -1/4] 10.146.110.111 () {38 vars in 624 bytes} [Tue Dec 23 22:38:11 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+...brutally killing workers...
+Tue Dec 23 22:38:20 2014 - received message 0 from emperor
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/jzp/Wechat-dlnu-assistant/uwsgi.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:38:21 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f44cf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15205)
+spawned uWSGI worker 1 (pid: 15372, cores: 1)
+epoll_ctl(): File exists [core/event.c line 521]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 22:38:21 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 22:38:21 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15372)...
+worker 1 killed successfully (pid: 15372)
+Respawned uWSGI worker 1 (new pid: 15373)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 22:38:22 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 22:38:22 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15373)...
+worker 1 killed successfully (pid: 15373)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:39:27 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13d1440
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x13d1440 pid: 15390 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15390, cores: 1)
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:40:16 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e53440
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e53440 pid: 15395 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15395, cores: 1)
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:43:58 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2538dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15433)
+spawned uWSGI worker 1 (pid: 15434, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15434|app: -1|req: -1/1] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:44:04 2014] POST /weixin?signature=017bd6e486f3ae03e48b8f9949f85a327e6617f4&timestamp=1419345846&nonce=808097222 => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+--- no python application found, check your startup logs for errors ---
+[pid: 15434|app: -1|req: -1/2] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:44:10 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15434|app: -1|req: -1/3] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:44:12 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+...brutally killing workers...
+Tue Dec 23 22:44:23 2014 - received message 0 from emperor
+worker 1 buried after 0 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/jzp/Wechat-dlnu-assistant/uwsgi.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:44:23 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1475cf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15433)
+spawned uWSGI worker 1 (pid: 15438, cores: 1)
+epoll_ctl(): File exists [core/event.c line 521]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 22:44:23 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 22:44:23 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15438)...
+worker 1 killed successfully (pid: 15438)
+Respawned uWSGI worker 1 (new pid: 15439)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 22:44:24 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 22:44:24 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15439)...
+worker 1 killed successfully (pid: 15439)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+Respawned uWSGI worker 1 (new pid: 15440)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 22:44:27 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 22:44:27 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15440)...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:44:42 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a5f440
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a5f440 pid: 15444 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 15444, cores: 1)
+[pid: 15444|app: 0|req: 1/1] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:44:45 2014] GET / => generated 351 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15444|app: 0|req: 2/2] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:44:48 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15444|app: 0|req: 3/3] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:44:50 2014] POST /weixin?signature=78cd99ed935c8c590aaa79c6055a688aaab51d18&timestamp=1419345893&nonce=742999326 => generated 343 bytes in 280 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15444|app: 0|req: 4/4] 140.207.54.75 () {38 vars in 627 bytes} [Tue Dec 23 22:44:55 2014] POST /weixin?signature=0e44662b844f51c4eb2a13f54124ecb2702efd64&timestamp=1419345897&nonce=240643938 => generated 271 bytes in 226 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:45:07 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x146cdd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15456)
+spawned uWSGI worker 1 (pid: 15457, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15457|app: -1|req: -1/1] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:45:11 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+--- no python application found, check your startup logs for errors ---
+[pid: 15457|app: -1|req: -1/2] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:45:11 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15457|app: -1|req: -1/3] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:45:11 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15457|app: -1|req: -1/4] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:45:12 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15457|app: -1|req: -1/5] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 22:45:12 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+...brutally killing workers...
+Tue Dec 23 22:45:20 2014 - received message 0 from emperor
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/jzp/Wechat-dlnu-assistant/uwsgi.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:45:21 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd63cf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15456)
+spawned uWSGI worker 1 (pid: 15461, cores: 1)
+epoll_ctl(): File exists [core/event.c line 521]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 22:45:21 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 22:45:21 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15461)...
+worker 1 killed successfully (pid: 15461)
+Respawned uWSGI worker 1 (new pid: 15462)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 22:45:22 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 22:45:22 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15462)...
+worker 1 killed successfully (pid: 15462)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:09:19 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2690dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15735)
+spawned uWSGI worker 1 (pid: 15736, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15736|app: -1|req: -1/1] 10.146.110.111 () {38 vars in 624 bytes} [Tue Dec 23 23:09:31 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+...brutally killing workers...
+Tue Dec 23 23:09:49 2014 - received message 0 from emperor
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/jzp/Wechat-dlnu-assistant/uwsgi.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:09:50 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x990cf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15735)
+spawned uWSGI worker 1 (pid: 15740, cores: 1)
+epoll_ctl(): File exists [core/event.c line 521]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 23:09:50 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 23:09:50 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15740)...
+worker 1 killed successfully (pid: 15740)
+Respawned uWSGI worker 1 (new pid: 15741)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 23:09:51 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 23:09:51 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15741)...
+worker 1 killed successfully (pid: 15741)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:26:21 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2000dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15873)
+spawned uWSGI worker 1 (pid: 15874, cores: 1)
+...brutally killing workers...
+Tue Dec 23 23:26:29 2014 - received message 0 from emperor
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/jzp/Wechat-dlnu-assistant/uwsgi.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:26:30 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9ffcf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15873)
+spawned uWSGI worker 1 (pid: 15876, cores: 1)
+epoll_ctl(): File exists [core/event.c line 521]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 23:26:30 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 23:26:30 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15876)...
+worker 1 killed successfully (pid: 15876)
+Respawned uWSGI worker 1 (new pid: 15877)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 23:26:31 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 23:26:31 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15877)...
+worker 1 killed successfully (pid: 15877)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:26:43 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x23f2dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15883)
+spawned uWSGI worker 1 (pid: 15884, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15884|app: -1|req: -1/1] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 23:26:45 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+--- no python application found, check your startup logs for errors ---
+[pid: 15884|app: -1|req: -1/2] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 23:26:46 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15884|app: -1|req: -1/3] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 23:26:46 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 15884|app: -1|req: -1/4] 10.146.110.111 () {40 vars in 655 bytes} [Tue Dec 23 23:26:46 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+...brutally killing workers...
+Tue Dec 23 23:26:56 2014 - received message 0 from emperor
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/vassals
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/jzp/Wechat-dlnu-assistant/uwsgi.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:26:57 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /etc/uwsgi/vassals
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a03cf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named run
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15883)
+spawned uWSGI worker 1 (pid: 15887, cores: 1)
+epoll_ctl(): File exists [core/event.c line 521]
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 23:26:57 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 23:26:57 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15887)...
+worker 1 killed successfully (pid: 15887)
+Respawned uWSGI worker 1 (new pid: 15888)
+emperor-i-am-ready-to-accept/write(): Bad file descriptor [core/uwsgi.c line 3448]
+Tue Dec 23 23:26:58 2014 - lost communication with the Emperor, goodbye...
+Tue Dec 23 23:26:58 2014 - graceful shutdown triggered...
+Gracefully killing worker 1 (pid: 15888)...
+worker 1 killed successfully (pid: 15888)
+worker respawning too fast !!! i have to sleep a bit (2 seconds)...
+*** Starting uWSGI 2.0.8 (64bit) on [Wed Dec 24 10:02:10 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d42440
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1d42440 pid: 26827 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 26827, cores: 1)
+[pid: 26827|app: 0|req: 1/1] 10.146.110.111 () {40 vars in 655 bytes} [Wed Dec 24 10:02:14 2014] GET / => generated 351 bytes in 20 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26827|app: 0|req: 2/2] 10.146.110.111 () {40 vars in 655 bytes} [Wed Dec 24 10:02:15 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 26827|app: 0|req: 3/3] 10.146.110.111 () {40 vars in 655 bytes} [Wed Dec 24 10:02:15 2014] GET / => generated 351 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Wed Dec 24 10:17:15 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2748440
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2748440 pid: 27310 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 27310, cores: 1)
+[pid: 27310|app: 0|req: 1/1] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 10:17:22 2014] GET / => generated 351 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Wed Dec 24 10:57:07 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d9e440
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d9e440 pid: 27974 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 27974, cores: 1)
+[pid: 27974|app: 0|req: 1/1] 10.146.110.111 () {40 vars in 655 bytes} [Wed Dec 24 10:57:13 2014] GET / => generated 351 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.8 (64bit) on [Wed Dec 24 11:03:39 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/jzp/Wechat-dlnu-assistant
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/jzp/Wechat-dlnu-assistant/uwsgi.sock fd 3
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x176a600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x176a600 pid: 28092 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 28092, cores: 1)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 26827|app: 0|req: 4/4] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 26827|app: 0|req: 5/5] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 26827|app: 0|req: 6/6] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 26827|app: 0|req: 7/7] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 27310|app: 0|req: 2/2] 10.146.110.111 () {40 vars in 655 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 27310|app: 0|req: 3/3] 10.146.110.111 () {40 vars in 655 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 26827|app: 0|req: 8/8] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 26827|app: 0|req: 9/9] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Wed Dec 24 16:09:27 2014 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 10.146.110.111) !!!
+Wed Dec 24 16:09:27 2014 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 287] during GET / (10.146.110.111)
+IOError: write error
+[pid: 26827|app: 0|req: 10/10] 10.146.110.111 () {38 vars in 624 bytes} [Wed Dec 24 16:09:27 2014] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)

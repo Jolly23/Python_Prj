@@ -1,0 +1,215 @@
+{% extends 'base.html' %}
+
+{% block page_body %}
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="panel panel-success">
+        <div class="panel panel-heading">
+            <div class="panel-title">成绩查询</div>
+        </div>
+        <div class="panel-body">
+            <form action="/score" method="post">
+                <div class="form-group">
+                    <label for="ticket">准考证号：</label>
+                    <input type="text" name="ticket" class="form-control" id="ticket"/>
+                </div>
+                <div class="form-group">
+                    <label for="sname">姓名：</label>
+                    <input type="text" name="name" class="form-control" id="sname"/>
+                </div>
+                <div class="form-group">
+                    <label class="radio-inline">
+                        <input type="radio" checked name="scet" id="scet4" value="1"/>CET4
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="scet" id="scet6" value="2"/>CET6
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">成绩查询</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="panel panel-info">
+        <div class="panel panel-heading">
+            <div class="panel-title">找回准考证号</div>
+        </div>
+        <div class="panel-body">
+            <form action="/ticket" method="post">
+                <div class="form-group">
+                    <label for="province">省份：</label>
+                    <select name="province" id="province" class="form-control">
+                        <option value="浙江">浙江</option>
+                        <option value="北京">北京</option>
+                        <option value="天津">天津</option>
+                        <option value="河北">河北</option>
+                        <option value="山西">山西</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="辽宁">辽宁</option>
+                        <option value="吉林">吉林</option>
+                        <option value="黑龙江">黑龙江</option>
+                        <option value="上海">上海</option>
+                        <option value="江苏">江苏</option>
+                        <option value="安徽">安徽</option>
+                        <option value="福建">福建</option>
+                        <option value="江西">江西</option>
+                        <option value="山东">山东</option>
+                        <option value="河南">河南</option>
+                        <option value="湖北">湖北</option>
+                        <option value="湖南">湖南</option>
+                        <option value="广东">广东</option>
+                        <option value="广西">广西</option>
+                        <option value="海南">海南</option>
+                        <option value="重庆">重庆</option>
+                        <option value="四川">四川</option>
+                        <option value="贵州">贵州</option>
+                        <option value="云南">云南</option>
+                        <option value="西藏">西藏</option>
+                        <option value="陕西">陕西</option>
+                        <option value="甘肃">甘肃</option>
+                        <option value="青海">青海</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="school">学校：</label>
+                    <select name="school" id="school" class="form-control">
+                        <option value="浙江海洋学院">浙江海洋学院</option>
+                        <option value="公安海警学院">公安海警学院</option>
+                        <option value="杭州电子科技大学">杭州电子科技大学</option>
+                        <option value="杭州电子科技大学继续教育学院">杭州电子科技大学继续教育学院</option>
+                        <option value="杭州科技职业技术学院">杭州科技职业技术学院</option>
+                        <option value="杭州师范大学">杭州师范大学</option>
+                        <option value="杭州万向职业技术学院">杭州万向职业技术学院</option>
+                        <option value="杭州职业技术学院">杭州职业技术学院</option>
+                        <option value="湖州师范学院">湖州师范学院</option>
+                        <option value="湖州职业技术学院（湖州电大）">湖州职业技术学院（湖州电大）</option>
+                        <option value="嘉兴广播电视大学">嘉兴广播电视大学</option>
+                        <option value="嘉兴南洋职业技术学院">嘉兴南洋职业技术学院</option>
+                        <option value="嘉兴学院">嘉兴学院</option>
+                        <option value="嘉兴职业技术学院">嘉兴职业技术学院</option>
+                        <option value="金华广播电视大学">金华广播电视大学</option>
+                        <option value="金华教育学院">金华教育学院</option>
+                        <option value="金华职业技术学院">金华职业技术学院</option>
+                        <option value="丽水学院">丽水学院</option>
+                        <option value="丽水职业技术学院">丽水职业技术学院</option>
+                        <option value="宁波城市职业技术学院">宁波城市职业技术学院</option>
+                        <option value="宁波大红鹰学院">宁波大红鹰学院</option>
+                        <option value="宁波大学">宁波大学</option>
+                        <option value="宁波大学成人教育学院">宁波大学成人教育学院</option>
+                        <option value="宁波工程学院">宁波工程学院</option>
+                        <option value="宁波广播电视大学">宁波广播电视大学</option>
+                        <option value="宁波教育学院">宁波教育学院</option>
+                        <option value="宁波诺丁汉大学">宁波诺丁汉大学</option>
+                        <option value="宁波卫生职业技术学院">宁波卫生职业技术学院</option>
+                        <option value="宁波职业技术学院">宁波职业技术学院</option>
+                        <option value="上海财经大学浙江学院">上海财经大学浙江学院</option>
+                        <option value="绍兴文理学院">绍兴文理学院</option>
+                        <option value="绍兴职业技术学院">绍兴职业技术学院</option>
+                        <option value="台州广播电视大学">台州广播电视大学</option>
+                        <option value="台州科技职业学院">台州科技职业学院</option>
+                        <option value="台州学院">台州学院</option>
+                        <option value="台州职业技术学院">台州职业技术学院</option>
+                        <option value="同济大学浙江学院">同济大学浙江学院</option>
+                        <option value="温州大学">温州大学</option>
+                        <option value="温州大学城市学院">温州大学城市学院</option>
+                        <option value="温州科技职业学院">温州科技职业学院</option>
+                        <option value="温州医科大学">温州医科大学</option>
+                        <option value="温州职业技术学院">温州职业技术学院</option>
+                        <option value="义乌工商职业技术学院">义乌工商职业技术学院</option>
+                        <option value="浙江财经大学">浙江财经大学</option>
+                        <option value="浙江长征职业技术学院">浙江长征职业技术学院</option>
+                        <option value="浙江传媒学院">浙江传媒学院</option>
+                        <option value="浙江大学">浙江大学</option>
+                        <option value="浙江大学城市学院">浙江大学城市学院</option>
+                        <option value="浙江大学宁波理工学院">浙江大学宁波理工学院</option>
+                        <option value="浙江电大工商学院">浙江电大工商学院</option>
+                        <option value="浙江东方职业技术学院">浙江东方职业技术学院</option>
+                        <option value="浙江纺织服装职业技术学院">浙江纺织服装职业技术学院</option>
+                        <option value="浙江工贸职业技术学院">浙江工贸职业技术学院</option>
+                        <option value="浙江工商大学">浙江工商大学</option>
+                        <option value="浙江工商职业技术学院">浙江工商职业技术学院</option>
+                        <option value="浙江工业大学">浙江工业大学</option>
+                        <option value="浙江工业大学之江学院">浙江工业大学之江学院</option>
+                        <option value="浙江工业职业技术学院">浙江工业职业技术学院</option>
+                        <option value="浙江广厦建设职业技术学院">浙江广厦建设职业技术学院</option>
+                        <option value="浙江国际海运职业技术学院">浙江国际海运职业技术学院</option>
+                        <option value="浙江横店影视职业学院">浙江横店影视职业学院</option>
+                        <option value="浙江机电职业技术学院">浙江机电职业技术学院</option>
+                        <option value="浙江建设职业技术学院">浙江建设职业技术学院</option>
+                        <option value="浙江交通职业技术学院">浙江交通职业技术学院</option>
+                        <option value="浙江金融职业学院">浙江金融职业学院</option>
+                        <option value="浙江经济职业技术学院">浙江经济职业技术学院</option>
+                        <option value="浙江经贸职业技术学院">浙江经贸职业技术学院</option>
+                        <option value="浙江警察学院">浙江警察学院</option>
+                        <option value="浙江警官职业学院">浙江警官职业学院</option>
+                        <option value="浙江科技学院">浙江科技学院</option>
+                        <option value="浙江理工大学">浙江理工大学</option>
+                        <option value="浙江理工大学科技与艺术学院">浙江理工大学科技与艺术学院</option>
+                        <option value="浙江旅游职业学院">浙江旅游职业学院</option>
+                        <option value="浙江农林大学">浙江农林大学</option>
+                        <option value="浙江农林大学暨阳学院">浙江农林大学暨阳学院</option>
+                        <option value="浙江农业商贸职业学院">浙江农业商贸职业学院</option>
+                        <option value="浙江商业职业技术学院">浙江商业职业技术学院</option>
+                        <option value="浙江师范大学">浙江师范大学</option>
+                        <option value="浙江树人学院">浙江树人学院</option>
+                        <option value="浙江水利水电学院">浙江水利水电学院</option>
+                        <option value="浙江同济科技职业学院">浙江同济科技职业学院</option>
+                        <option value="浙江外国语学院">浙江外国语学院</option>
+                        <option value="浙江万里学院">浙江万里学院</option>
+                        <option value="浙江医学高等专科学校">浙江医学高等专科学校</option>
+                        <option value="浙江医药高等专科学校">浙江医药高等专科学校</option>
+                        <option value="浙江邮电职业技术学院">浙江邮电职业技术学院</option>
+                        <option value="浙江育英职业技术学院">浙江育英职业技术学院</option>
+                        <option value="浙江越秀外国语学院">浙江越秀外国语学院</option>
+                        <option value="浙江中医药大学">浙江中医药大学</option>
+                        <option value="浙师大杭州幼儿师范学院">浙师大杭州幼儿师范学院</option>
+                        <option value="中国计量学院">中国计量学院</option>
+                        <option value="中国美术学院">中国美术学院</option>
+                        <option value="衢州学院">衢州学院</option>
+                        <option value="衢州职业技术学院">衢州职业技术学院</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tname">姓名：</label>
+                    <input type="text" name="name" class="form-control" id="tname"/>
+                </div>
+                <div class="form-group">
+                    <label class="radio-inline">
+                        <input type="radio" checked name="tcet" id="tcet4" value="1"/>CET4
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="tcet" id="tcet6" value="2"/>CET6
+                    </label>
+                </div>
+                <button id="getTicket" type="button" class="btn btn-primary btn-block" data-toggle="modal"
+                        data-target="#ticketModal">找回准考证号
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+{% end %}
+
+{% block body_expand %}
+<div class="modal fade" id="ticketModal" tabindex="-1" role="dialog" aria-labelledby="ticketModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="ticketModalLabel">找回准考证</h4>
+            </div>
+            <div class="modal-body">
+                <div id="ticket_number">
+                    抱歉，未找到您的准考证
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% end %}

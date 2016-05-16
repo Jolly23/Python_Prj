@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>GetCET!</title>
+    <script src="{{ static_url('js/jquery-2.1.4.js') }}"></script>
+    <script src="{{ static_url('bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ static_url('js/school.js') }}"></script>
+    <script src="{{ static_url('js/global.js') }}"></script>
+    <link rel="stylesheet" href="{{ static_url('bootstrap/css/bootstrap.min.css') }}"/>
+    {% block head_expand %}
+    {% end %}
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        {% block page_header %}
+        <h1>GetCET!</h1>
+
+        <p class="lead">To help you get CET result more flexible.</p>
+        {% end %}
+    </div>
+    <div class="page-body">
+        <div class="row">
+            {% block page_body %}
+            {% end %}
+        </div>
+    </div>
+    <div class="page-footer">
+        {% block page_footer %}
+        <div class="container container-fluid">
+            <h4>GetCET!<span class="glyphicon glyphicon-envelope" style="padding: 5px;"></span>
+                <small><b><a href="#">realityone</a></b></small>
+            </h4>
+        </div>
+        {% end %}
+    </div>
+    {% block body_expand %}
+    {% end %}
+</div>
+</body>
+</html>

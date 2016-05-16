@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "_macro.html" as macros %}
+
+{% block title %}小偲{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1 style="color: #fafafa;
+letter-spacing: 0;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135">写下你对他(她)的爱!</h1>
+</div>
+<div>
+    {{ wtf.quick_form(form) }}
+</div>
+{% include '_posts.html' %}
+{% if pagination %}
+<div class="pagination">
+    {{ macros.pagination_widget(pagination, '.love',openid=openid) }}
+</div>
+{% endif %}
+
+{% endblock %}
+{{grade}}

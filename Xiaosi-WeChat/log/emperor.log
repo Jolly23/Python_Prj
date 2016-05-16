@@ -1,0 +1,229 @@
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:36:52 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d385d0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 15202)
+Tue Dec 23 22:36:52 2014 - [emperor] vassal uwsgi.ini has been spawned
+Tue Dec 23 22:36:52 2014 - [emperor] vassal uwsgi.ini is ready to accept requests
+Tue Dec 23 22:37:05 2014 - [emperor] vassal uwsgi.ini is now loyal
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+Tue Dec 23 22:38:20 2014 - [emperor] stop the uwsgi instance uwsgi.ini
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:43:58 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26ab5d0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 15430)
+Tue Dec 23 22:43:58 2014 - [emperor] vassal uwsgi.ini has been spawned
+Tue Dec 23 22:43:58 2014 - [emperor] vassal uwsgi.ini is ready to accept requests
+Tue Dec 23 22:44:04 2014 - [emperor] vassal uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Tue Dec 23 22:44:23 2014 - [emperor] stop the uwsgi instance uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 22:45:07 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13415d0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 15453)
+Tue Dec 23 22:45:07 2014 - [emperor] vassal uwsgi.ini has been spawned
+Tue Dec 23 22:45:07 2014 - [emperor] vassal uwsgi.ini is ready to accept requests
+Tue Dec 23 22:45:11 2014 - [emperor] vassal uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Tue Dec 23 22:45:20 2014 - [emperor] stop the uwsgi instance uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:09:19 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22fc5d0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 15732)
+Tue Dec 23 23:09:19 2014 - [emperor] vassal uwsgi.ini has been spawned
+Tue Dec 23 23:09:19 2014 - [emperor] vassal uwsgi.ini is ready to accept requests
+Tue Dec 23 23:09:31 2014 - [emperor] vassal uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Tue Dec 23 23:09:49 2014 - [emperor] stop the uwsgi instance uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:26:21 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa205d0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 15870)
+Tue Dec 23 23:26:21 2014 - [emperor] vassal uwsgi.ini has been spawned
+Tue Dec 23 23:26:21 2014 - [emperor] vassal uwsgi.ini is ready to accept requests
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+Tue Dec 23 23:26:29 2014 - [emperor] stop the uwsgi instance uwsgi.ini
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+The Emperor has been buried (pid: 15872)
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.8 (64bit) on [Tue Dec 23 23:26:43 2014] ***
+compiled with version: 4.8.2 on 17 December 2014 14:44:17
+os: Linux-3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+nodename: jzp-desktop
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+your processes number limit is 15494
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+Python version: 2.7.6 (default, Mar 22 2014, 23:03:41)  [GCC 4.8.2]
+*** has_emperor mode detected (fd: 6) ***
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c8d5d0
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 15880)
+Tue Dec 23 23:26:43 2014 - [emperor] vassal uwsgi.ini has been spawned
+Tue Dec 23 23:26:43 2014 - [emperor] vassal uwsgi.ini is ready to accept requests
+Tue Dec 23 23:26:45 2014 - [emperor] vassal uwsgi.ini is now loyal
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+Tue Dec 23 23:26:56 2014 - [emperor] stop the uwsgi instance uwsgi.ini
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...

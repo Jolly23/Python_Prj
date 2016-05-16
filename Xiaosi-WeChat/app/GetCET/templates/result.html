@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block page_body %}
+<div class="row">
+    <div class="col-md-2 col-lg-2"></div>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="panel panel-default">
+            <div class="panel panel-heading">
+                <div class="panel-title">成绩单</div>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    {% if 'error' not in result %}
+                    <tr>
+                        <td>姓名</td>
+                        <td>{{ result['name'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>学校</td>
+                        <td>{{ result['school'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>听力</td>
+                        <td>{{ result['Listening'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>阅读</td>
+                        <td>{{ result['Reading'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>写作</td>
+                        <td>{{ result['Writing'] }}</td>
+                    </tr>
+                    <tr>
+                        <td>总分</td>
+                        <td>{{ result['Total'] }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td>未找到您的成绩</td>
+                    </tr>
+                    {% end %}
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 col-lg-2"></div>
+</div>
+{% end %}
