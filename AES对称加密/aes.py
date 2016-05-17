@@ -11,7 +11,7 @@ class PrpCrypt(object):
         self.mode = AES.MODE_CBC
 
     # 加密函数，如果text不足16位就用空格补足为16位，
-    # 如果大于16当时不是16的倍数，那就补足为16的倍数。
+    # 如果大于16但是不是16的倍数，那就补足为16的倍数。
     def encrypt(self, text):
         cryptor = AES.new(self.key, self.mode, b'0000000000000000')
         # 这里密钥key 长度必须为16（AES-128）,
